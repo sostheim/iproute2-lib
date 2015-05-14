@@ -14,21 +14,22 @@ This project is the first pass at that end.  I have no immediate plans to try to
 
 My inital project deliverable is for a system that targets Ubuntu 14.04.  So, all current development is being done against a tag (version-v3.12.0) for the current 14.04 LTS package version.  
 
-   $ lsb_release -a
-   No LSB modules are available.
-   Distributor ID:         Ubuntu
-   Description:            Ubuntu 14.04.2 LTS
-   Release:                14.04
-   Codename:               trusty
+---
+      $ lsb_release -a
+      No LSB modules are available.
+      Distributor ID:         Ubuntu
+      Description:            Ubuntu 14.04.2 LTS
+      Release:                14.04
+      Codename:               trusty
 
-   $ dpkg -l iproute2
-   Desired=Unknown/Install/Remove/Purge/Hold
-   | Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
-   |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
-   ||/ Name               Version         Architecture          Description
-   +++-==================-===============-=====================-====================================
-   ii  iproute2           3.12.0-2        amd64                 networking and traffic control tools
-
+      $ dpkg -l iproute2
+      Desired=Unknown/Install/Remove/Purge/Hold
+      | Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+      |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+      ||/ Name               Version         Architecture          Description
+      +++-==================-===============-=====================-====================================
+      ii  iproute2           3.12.0-2        amd64                 networking and traffic control tools
+---
 
 
 The project is in a very nascent form currently.  So far I've implemented: 
